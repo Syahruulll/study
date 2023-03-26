@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Syahrul Hidayatullah"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-24 01:44:33 PM"/>
+        <attribute name="created" value="U3lhaHJ1bCBIaWRheWF0dWxsYWg7TEFQVE9QLVE2NFI0NDRQOzIwMjMtMDMtMjQ7MDE6Mzg6NDUgUE07NDMxMw=="/>
+        <attribute name="edited" value="U3lhaHJ1bCBIaWRheWF0dWxsYWg7TEFQVE9QLVE2NFI0NDRQOzIwMjMtMDMtMjQ7MDE6NDQ6MzMgUE07MTs0NDE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="chheck form submitted isset($_POST[&quot;submit&quot;]"/>
+            <assign variable="$input" expression="$_POST['input']"/>
+            <assign variable="$max" expression="max($inputs)"/>
+            <output expression="bilangan terbesar adalah $max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
